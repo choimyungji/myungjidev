@@ -27,7 +27,18 @@ github_username: choimyungji
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+permalink: /:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
   
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+
 paginate: 10
 paginator_path: "/_posts"
 paginate_path: "/_posts/page:num/"
