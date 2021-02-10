@@ -26,7 +26,11 @@ github_username: choimyungji
 # theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-paginate
+  
+paginate: 10
+paginator_path: "/_posts"
+paginate_path: "/_posts/page:num/"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
