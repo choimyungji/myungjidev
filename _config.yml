@@ -42,6 +42,13 @@ kramdown:
 paginate: 10
 paginator_path: "/_posts"
 paginate_path: "/_posts/page:num/"
+
+# Collections
+collections:
+    wiki:
+        output: true
+        permalink: /:collection/:path/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
